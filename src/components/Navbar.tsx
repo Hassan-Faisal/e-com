@@ -8,7 +8,6 @@ const links = [
   { name: "Home", href: "/" },
   { name: "Men", href: "/Men" },
   { name: "Women", href: "/Women" },
-  { name: "Teens", href: "/Teens" },
 ];
 const Navbar = () => {
   const pathname = usePathname();
@@ -17,8 +16,8 @@ const Navbar = () => {
     <header className="mb-8 border-b">
       <div className="flex items-center justify-between mx-auto max-w-2xl px-4 sm:px-6 lg:max-w-7xl">
         <Link href={"/"}>
-          <h1 className="text-2xl md:text-4xl  font-bold">
-            Shop<span className="text-primary ">Fusion</span>
+          <h1 className="text-3xl md:text-4xl  font-bold">
+            Hassan<span className="text-primary ">Store</span>
           </h1>
         </Link>
         <nav className="hidden gap-12 lg:flex 2xl:ml-16">
